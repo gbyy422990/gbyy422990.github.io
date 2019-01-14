@@ -33,6 +33,15 @@
 		color: #333;
 		font-family: Helvetica Neue;
 	}
+	ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+	.menu {
+		display: flex;
+		justify-content: space-between;
+	}
 	a:link {
     	text-decoration: none;
 	}
@@ -63,6 +72,7 @@
 				<br>Junior Researcher</br>
 				<a href="http://www.noahlab.com.hk/" target="_blank">Noah's Ark Lab</a></br>
 					Email: bin.gao@outlook.com</br>
+
 				[<a href="https://github.com/gbyy422990" target="_blank">Github</a>] [<a href="https://www.linkedin.com/in/bin-gao-760aa8130" target="_blank">LinkedIn</a>] [<a href="https://blog.csdn.net/gbyy42299" target="_blank">CSDN(Chinese blog)</a>]
 			</div>
 
@@ -79,56 +89,71 @@
 				<p>
 				I have interests in several broad research directions, such as Object Detection, Image Segmentation, Multi-task Learning, Person Re-ID,
 					Fine-Grained Classification, Remote Sensing Image, etc..
-				</p>
-
+				</p><br />
 			<hr>
 			<h3>Education</h3>
 
+            <ul class="menu">
+				<b>Arts et Métiers ParisTech</b>
+				<b>Paris,France</b>
+			</ul>
+			<ul class="menu">
+				<i>Major：Information System </i>
+				<i>09/2015 – 09/2017</i>
+			</ul><br />
 
+			<ul class="menu">
+				<b>Polytechnic University of Milan(Exchanges)</b>
+				<b>Milan,Italy</b>
+			</ul>
+			<ul class="menu">
+				<i>Major：Electronic Engineering </i>
+				<i>11/2016 – 12/2016</i>
+			</ul><br />
 
+			<ul class="menu">
+				<b>Huaqiao University</b>
+				<b>Xiamen,China</b>
+			</ul>
+			<ul class="menu">
+				<i>Major：Mechanical Engineering and Automation </i>
+				<i>09/2011 – 07/2015</i>
 
-			<i><b text-justify:inter-ideograph>Arts et Métiers ParisTech</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Paris,France</b> </i><br />
-			<i>Major：System Information &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2015 – 09/2017</i><br />
-
-				<i>&emsp;</i><br />
-			<i><b>Polytechnic University of Milan(Exchanges)</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				&emsp;&emsp;&emsp;&emsp;<b>Milan,Italy</b></i><br />
-			<i>Major：Electronic Engineering &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;11/2016 – 12/2016</i><br />
-
-				<i>&emsp;</i><br />
-			<i><b>Huaqiao University</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Xiamen,China</b> </i><br />
-			<i>Major：Mechanical Engineering and Automation &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2011 – 07/2015</i>
+			</ul>
 				<i>Honors: 2015 - Excellent Graduate Award</i><br />
 					&emsp;&emsp;&emsp;&emsp; 2011 - 2015 - First Prize of the Scholarship; Prize of excellent student</i>
 
 			<br />
 			<br />
 			<hr />
+
 			<h3>Working Experience</h3>
 
-			<i><b>Huawei</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Shenzhen,China</b> </i><br />
-				<i>Position: Computer Vision Research Engineer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;08/2018 - now</i>
+			<ul class="menu">
+				<b>Huawei</b>
+				<b>Shenzhen,China</b>
+			</ul>
 
+			<ul class="menu">
+				<i>Position: Computer Vision Research Engineer</i>
+				<i>08/2018 - now</i>
+			</ul>
 				<ul>
 					<li><p><b>(1)	Currently working on object detection in video using motion vector for speedup.</b>
 					<li><p><b>(2)	Developed a Person Re-identification project for airport using:</b>
 					    <p>1. Added fully connect layer based on Mask-RCNN for the person attribute recognition model.</p>
 						<p>2. Developed a method of joint training Faster RCNN network using partial labeling data for the target detection of new category data.</p>
-
-
                 </ul>
 
-			<i><b>Gogo Group</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Beijing,China</b> </i><br />
-				<i>Position: Computer Vision Engineer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;10/2017 - 08/2018</i>
+			<ul class="menu">
+				<b>Gogo Group</b>
+				<b>Beijing,China</b>
+			</ul>
+
+			<ul class="menu">
+				<i>Position: Computer Vision Engineer</i>
+				<i>10/2017 - 08/2018</i>
+			</ul>
 
 				<ul>
 					<li><p><b>Automatic segmentation of remote sensing satellite imagery based on deep learning</b>
